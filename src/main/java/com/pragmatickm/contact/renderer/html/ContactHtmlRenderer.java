@@ -39,7 +39,10 @@ import com.semanticcms.core.renderer.html.PageIndex;
 import java.io.IOException;
 import java.util.List;
 
-public final class ContactHtmlRenderer {
+public abstract class ContactHtmlRenderer {
+
+	/** Make no instances. */
+	private ContactHtmlRenderer() {throw new AssertionError();}
 
 	private static void writeRow(String header, String value, AnyUnion_TBODY_THEAD_TFOOT<?, ?> factory) throws IOException {
 		if(value != null) {
@@ -198,11 +201,5 @@ public final class ContactHtmlRenderer {
 				}
 			});
 		});
-	}
-
-	/**
-	 * Make no instances.
-	 */
-	private ContactHtmlRenderer() {
 	}
 }
