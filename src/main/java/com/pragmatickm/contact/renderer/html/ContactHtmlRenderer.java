@@ -37,6 +37,7 @@ import com.semanticcms.core.model.ElementContext;
 import com.semanticcms.core.model.NodeBodyWriter;
 import com.semanticcms.core.renderer.html.PageIndex;
 import java.io.IOException;
+import java.io.Writer;
 import java.util.List;
 
 public final class ContactHtmlRenderer {
@@ -194,9 +195,11 @@ public final class ContactHtmlRenderer {
 				BufferResult body = contact.getBody();
 				if(body.getLength() > 0) {
 					tbody.tr__any(tr -> tr
-						.td().clazz("pragmatickm-contact-body").colspan(3).__(td ->
-							body.writeTo(new NodeBodyWriter(contact, td.getUnsafe(), context))
-						)
+						.td().clazz("pragmatickm-contact-body").colspan(3).__(td -> {
+							@SuppressWarnings("deprecation")
+							Writer unsafe = td.getRawUnsafe();
+							body.writeTo(new NodeBodyWriter(contact, unsafe, context));
+						})
 					);
 				}
 			});
