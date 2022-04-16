@@ -20,6 +20,7 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with pragmatickm-contact-renderer-html.  If not, see <https://www.gnu.org/licenses/>.
  */
+
 package com.pragmatickm.contact.renderer.html;
 
 import com.aoapps.html.any.AnyPalpableContent;
