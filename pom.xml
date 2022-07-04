@@ -46,7 +46,7 @@ along with pragmatickm-contact-renderer-html.  If not, see <https://www.gnu.org/
     <sonar.coverage.exclusions>**.*</sonar.coverage.exclusions>
   </properties>
 
-  <name>PragmaticKM Contact Renderer HTML²</name>
+  <name>PragmaticKM Contact Renderer HTML</name>
   <url>https://pragmatickm.com/contact/renderer/html/</url>
   <description>Contacts rendered as HTML in a Servlet environment.</description>
   <inceptionYear>2013</inceptionYear>
