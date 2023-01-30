@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 /*
  * pragmatickm-contact-renderer-html - Contacts rendered as HTML in a Servlet environment.
- * Copyright (C) 2021, 2022  AO Industries, Inc.
+ * Copyright (C) 2021, 2022, 2023  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -31,7 +31,6 @@ def upstreamProjects = [
   '../../oss/encoding', // <groupId>com.aoapps</groupId><artifactId>ao-encoding</artifactId>
   '../../oss/fluent-html-any', // <groupId>com.aoapps</groupId><artifactId>ao-fluent-html-any</artifactId>
   '../../oss/io-buffer', // <groupId>com.aoapps</groupId><artifactId>ao-io-buffer</artifactId>
-  '../../oss/lang', // <groupId>com.aoapps</groupId><artifactId>ao-lang</artifactId>
   '../../oss/net-types', // <groupId>com.aoapps</groupId><artifactId>ao-net-types</artifactId>
   'model', // <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-model</artifactId>
   '../../semanticcms/core/model', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-model</artifactId>
