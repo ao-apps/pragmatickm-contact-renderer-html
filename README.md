@@ -23,7 +23,7 @@
 * [Project Home](https://pragmatickm.com/contact/renderer/html/)
 * [Changelog](https://pragmatickm.com/contact/renderer/html/changelog)
 * [API Docs](https://pragmatickm.com/contact/renderer/html/apidocs/)
-* [Maven Central Repository](https://central.sonatype.com/search?namespace=com.pragmatickm&q=a%3Apragmatickm-contact-renderer-html)
+* [Maven Central Repository](https://central.sonatype.com/artifact/com.pragmatickm/pragmatickm-contact-renderer-html)
 * [GitHub](https://github.com/ao-apps/pragmatickm-contact-renderer-html)
 
 ## Contact Us
