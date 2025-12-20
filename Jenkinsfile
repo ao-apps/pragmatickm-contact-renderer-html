@@ -38,7 +38,7 @@ def upstreamProjects = [
   '../../semanticcms/core/renderer-html', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-renderer-html</artifactId>
 
   // Runtime Direct
-  '../../oss/style-javaee', // <groupId>com.aoapps</groupId><artifactId>ao-style</artifactId>
+  '../../oss/style', // <groupId>com.aoapps</groupId><artifactId>ao-style</artifactId>
 
   // BOM
   '../../oss/javaee-web-api-bom', // <groupId>com.aoapps</groupId><artifactId>javaee-web-api-bom</artifactId>
