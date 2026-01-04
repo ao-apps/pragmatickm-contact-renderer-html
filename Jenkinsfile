@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 /*
  * pragmatickm-contact-renderer-html - Contacts rendered as HTML in a Servlet environment.
- * Copyright (C) 2021, 2022, 2023, 2024, 2025  AO Industries, Inc.
+ * Copyright (C) 2021, 2022, 2023, 2024, 2025, 2026  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -41,7 +41,7 @@ def upstreamProjects = [
   '../../oss/style', // <groupId>com.aoapps</groupId><artifactId>ao-style</artifactId>
 
   // BOM
-  '../../oss/javaee-web-api-bom', // <groupId>com.aoapps</groupId><artifactId>javaee-web-api-bom</artifactId>
+  '../../oss/jakartaee-web-profile-bom', // <groupId>com.aoapps</groupId><artifactId>jakartaee-web-profile-bom</artifactId>
 ]
 
 // Java 17
